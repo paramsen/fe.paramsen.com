@@ -1,9 +1,9 @@
-# fe.paramsen.com
-__React.js frontend for http://www.paramsen.com__
+# React.js frontent for http://paramsen.com
+_Sub module of  https://github.com/paramsen/root.paramsen.com_
 
 ## Prerequisites
 NodeJs 6+  
-build-essentials [unix]
+build-essentials [unix]  
 
 ## Tech
 React.js  
