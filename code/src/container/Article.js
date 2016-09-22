@@ -25,9 +25,9 @@ const ArticleContainer = React.createClass({
         return(
             <div>
                 <Helmet 
-                    title={this.props.article.title}
+                    title={this.props.article ? this.props.article.title : ""}
                     meta={[
-                        {"name": "description", "content": this.props.article.excerpt}
+                        {"name": "description", "content": this.props.article ? this.props.article.excerpt : ""}
                     ]}/>
                 <Article article={this.props.article} articleBody={this.props.articleBody}/>
             </div>
